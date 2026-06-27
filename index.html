@@ -1,0 +1,369 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>MY WEBPAGE!!!! - Welcome!!!!</title>
+  <style>
+    body {
+      background-color: #000080;
+      background-image: url("data:image/gif;base64,R0lGODlhEAAQAIAAAAAAAP///yH5BAAAAAAALAAAAAAQABAAAAIijI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTBcFADs=");
+      font-family: "Comic Sans MS", cursive;
+      color: #ffff00;
+      margin: 8px;
+    }
+
+    marquee {
+      background-color: #ff0000;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: bold;
+      padding: 3px;
+      border: 3px solid #ffff00;
+    }
+
+    h1 {
+      font-size: 48px;
+      text-align: center;
+      color: #ff00ff;
+      text-shadow: 3px 3px #000000;
+    }
+
+    h2 {
+      font-family: "Arial Black", sans-serif;
+      color: #00ffff;
+      font-size: 18px;
+      border-bottom: 2px solid #00ffff;
+    }
+
+    a { color: #ff99ff; }
+    a:hover { color: #ffff00; }
+    a:visited { color: #cc66cc; }
+
+    table.layout {
+      width: 780px;
+      margin: 0 auto;
+      border: 0;
+      cellspacing: 0;
+    }
+
+    td.main {
+      background-color: #000033;
+      border: 3px solid #ff00ff;
+      padding: 10px;
+      vertical-align: top;
+      width: 520px;
+    }
+
+    td.side {
+      background-color: #000033;
+      border: 3px solid #00ffff;
+      padding: 8px;
+      vertical-align: top;
+      width: 200px;
+    }
+
+    .rainbow-bar {
+      width: 100%;
+      height: 8px;
+      background: linear-gradient(to right, red, orange, yellow, lime, cyan, blue, violet);
+      margin: 6px 0;
+    }
+
+    .blinking {
+      animation: blink 1s step-end infinite;
+    }
+    @keyframes blink { 50% { visibility: hidden; } }
+
+    .counter-box {
+      background-color: #000000;
+      border: 3px inset #ff0000;
+      text-align: center;
+      padding: 6px;
+      font-family: "Courier New", monospace;
+      font-size: 28px;
+      color: #ff0000;
+    }
+
+    .section-box {
+      background-color: #001a00;
+      border: 2px solid #00ff00;
+      padding: 8px;
+      margin-bottom: 10px;
+      font-size: 13px;
+      color: #ccffcc;
+    }
+
+    .update-box {
+      background-color: #1a0000;
+      border: 2px solid #ff6600;
+      padding: 8px;
+      margin-bottom: 10px;
+      font-size: 13px;
+      color: #ffcc99;
+    }
+
+    .under-construction {
+      background: repeating-linear-gradient(
+        45deg, #000000 0px, #000000 12px,
+        #ffcc00 12px, #ffcc00 24px
+      );
+      border: 4px solid #ff0000;
+      text-align: center;
+      padding: 8px;
+      margin-top: 10px;
+    }
+    .under-construction span {
+      background: #000000;
+      color: #ffff00;
+      font-size: 15px;
+      font-weight: bold;
+      padding: 2px 10px;
+    }
+
+    .guestbook-input {
+      background: #000000;
+      border: 2px solid #ffff00;
+      color: #ffffff;
+      font-family: "Comic Sans MS", cursive;
+      font-size: 12px;
+      width: 98%;
+      padding: 3px;
+      margin-bottom: 4px;
+      display: block;
+    }
+
+    .guestbook-btn {
+      background: #ff0000;
+      color: #ffff00;
+      border: 3px solid #ffff00;
+      font-family: "Comic Sans MS", cursive;
+      font-weight: bold;
+      font-size: 13px;
+      padding: 3px 12px;
+      cursor: pointer;
+    }
+
+    .entry { border-top: 1px dashed #ffff00; padding-top: 4px; margin-top: 4px; font-size: 12px; }
+    .entry-name { color: #ff00ff; font-weight: bold; }
+
+    hr.fancy {
+      border: none;
+      border-top: 3px dashed #ff00ff;
+    }
+
+    .navbar {
+      background: #ff0000;
+      border: 3px solid #ffff00;
+      text-align: center;
+      padding: 5px;
+      margin-bottom: 8px;
+    }
+    .navbar a {
+      color: #ffff00;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+    .navbar a:hover { text-decoration: underline; color: #00ffff; }
+
+    .poll-btn {
+      background: #003366;
+      color: #00ffff;
+      border: 2px solid #00ffff;
+      font-family: "Comic Sans MS", cursive;
+      font-size: 12px;
+      cursor: pointer;
+      margin: 2px;
+      padding: 2px 8px;
+    }
+
+    p { font-size: 13px; line-height: 1.6; margin: 4px 0 8px; }
+    li { font-size: 13px; line-height: 1.8; }
+  </style>
+</head>
+<body>
+
+<table class="layout" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="2" style="padding-bottom:6px;">
+
+      <marquee scrollamount="4">
+        *** WELCOME TO MY WEBPAGE!!!! *** YOU ARE VISITOR NUMBER 1,337,420 *** BEST VIEWED IN INTERNET EXPLORER 6 AT 800x600 *** NO COPYING OR I WILL TELL MY MOM ***
+      </marquee>
+
+      <h1>MY WEBPAGE!!!!</h1>
+
+      <div style="text-align:center; color:#00ff00; font-size:14px;" class="blinking">
+        ~*~ click around and sign my guestbook please ~*~
+      </div>
+
+      <div class="rainbow-bar"></div>
+
+      <div class="navbar">
+        <a href="#">Home</a> |
+        <a href="#">About Me</a> |
+        <a href="#">Piktures</a> |
+        <a href="#">Guestbook</a> |
+        <a href="#">Cool Links</a>
+      </div>
+
+    </td>
+  </tr>
+  <tr>
+
+    <!-- MAIN COLUMN -->
+    <td class="main">
+
+      <h2>About Me</h2>
+      <div class="section-box">
+        <p>
+          Hi!!!! my name is KrazyKid2003 and this is my AWSUM webpage!!!
+          i am 9 years old and i live in ohio. i made this ALL BY MYSELF
+          no help from my dad (ok maybe a litle bit).
+        </p>
+        <p>stuff i like:</p>
+        <ul>
+          <li>neopets and runescape!!!!</li>
+          <li>hilary duff + linkin park</li>
+          <li>pizza (only cheese)</li>
+          <li>my cat mr. fluffkins</li>
+          <li>making webpages OBVIOUSLY</li>
+        </ul>
+        <hr class="fancy">
+        <p style="color:#ff0000; font-weight:bold; font-size:12px;">
+          WARNING: if ur mean on my site i will block u and tell my mom
+        </p>
+      </div>
+
+      <h2>Site Newz</h2>
+      <div class="update-box">
+        <p><b style="color:#ffff00;">4/13/03:</b> added more stuff to my site!!!! also new background!!! do u like it??? plz sign my guestbook</p>
+        <p><b style="color:#ffff00;">4/10/03:</b> OMG i got 1000 visitors!!!! thank u every1!!!</p>
+        <p><b style="color:#ffff00;">4/07/03:</b> made the navbar. took me 4 HOURS. html is hard</p>
+        <p><b style="color:#ffff00;">4/01/03:</b> SITE IS OPEN!!!! tell ur frends!!!!!</p>
+      </div>
+
+      <h2>Sign My Guestbook!!!!</h2>
+      <div class="section-box">
+        <input class="guestbook-input" id="gb-name" type="text" maxlength="30" placeholder="ur name here">
+        <textarea class="guestbook-input" id="gb-msg" rows="3" placeholder="say sumthing nice or dont say anything lol"></textarea>
+        <button class="guestbook-btn" onclick="addEntry()">Sign It!!!</button>
+        <div id="gb-entries">
+          <div class="entry"><span class="entry-name">xXDragonSlayer99Xx:</span> kewl site!!! add me on aim: dragonboy99</div>
+          <div class="entry"><span class="entry-name">PrincessStarlight:</span> omg i luv ur background!!! how did u do it?? teach me plzzzz</div>
+          <div class="entry"><span class="entry-name">CoolDude2003:</span> first!!!!! lol jk ur site rocks!!!!</div>
+        </div>
+      </div>
+
+      <div class="under-construction">
+        <span>UNDER CONSTRUCTION - PIKTURES PAGE COMING SOON!!!!</span>
+      </div>
+
+    </td>
+
+    <!-- SIDEBAR -->
+    <td style="width:10px; background:transparent;"></td>
+    <td class="side">
+
+      <h2>Hit Counter</h2>
+      <div class="counter-box" id="counter">0001337</div>
+      <p style="font-size:11px; text-align:center;">ppl have visited my site!!!<br>
+        <button class="poll-btn" onclick="bumpCounter()">click to add 1!!!</button>
+      </p>
+
+      <hr class="fancy">
+
+      <h2>Fave Stuffz</h2>
+      <ul>
+        <li>rainbow stuff</li>
+        <li>unicorns obviously</li>
+        <li>html coding!!!!</li>
+        <li>gameboy color</li>
+        <li>lizzie mcguire</li>
+        <li>crazy frog</li>
+        <li>glitter</li>
+      </ul>
+
+      <hr class="fancy">
+
+      <h2>Cool Links</h2>
+      <ul>
+        <li><a href="#">neopets.com</a> &lt;-- best site</li>
+        <li><a href="#">runescape</a> (im lvl 47!!)</li>
+        <li><a href="#">newgrounds</a> lol funny</li>
+        <li><a href="#">aim</a> im krazikid2003</li>
+        <li><a href="#">my frend brendas site</a></li>
+        <li><a href="#">google</a> (for homework)</li>
+      </ul>
+      <p style="font-size:11px;">want 2 swap links??? email me!!!</p>
+
+      <hr class="fancy">
+
+      <h2>Poll!!!!</h2>
+      <p style="font-size:12px; font-weight:bold;">whats the best pet:</p>
+      <div id="poll-result" style="font-size:12px; color:#ccffff; line-height:1.8;"></div>
+      <button class="poll-btn" onclick="vote('cats')">cats</button>
+      <button class="poll-btn" onclick="vote('dogs')">dogs</button>
+      <button class="poll-btn" onclick="vote('hamsters')">hamsters</button>
+
+      <hr class="fancy">
+
+      <div style="text-align:center; font-size:11px; color:#ff99ff;">
+        Webring:<br>
+        <a href="#">&lt;-- Prev</a> |
+        <a href="#">Random</a> |
+        <a href="#">Next --&gt;</a>
+      </div>
+
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="3" style="padding-top:8px;">
+      <div class="rainbow-bar"></div>
+      <div style="background:#000000; border:3px dashed #ff00ff; text-align:center; padding:6px; font-size:11px; color:#ff99ff;">
+        (c) 2003 KrazyKid2003 -- All rites reserved!!!! DO NOT STEAL!!!!!<br>
+        Best viewed: Internet Explorer 6 | 800x600 | With sound | In the dark<br>
+        <span style="color:#666666;">made with love and lots of mountain dew</span>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<script>
+  var count = 1337;
+  function bumpCounter() {
+    count++;
+    var s = String(count);
+    while (s.length < 7) s = "0" + s;
+    document.getElementById("counter").innerHTML = s;
+  }
+
+  function addEntry() {
+    var name = document.getElementById("gb-name").value || "Anonymous";
+    var msg  = document.getElementById("gb-msg").value;
+    if (!msg) { alert("u have 2 say sumthing!!!"); return; }
+    var div = document.createElement("div");
+    div.className = "entry";
+    div.innerHTML = '<span class="entry-name">' + name + ':</span> ' + msg;
+    var entries = document.getElementById("gb-entries");
+    entries.insertBefore(div, entries.firstChild);
+    document.getElementById("gb-name").value = "";
+    document.getElementById("gb-msg").value  = "";
+    alert("thx 4 signing my guestbook!!!! ur so kewl!!!!");
+  }
+
+  var votes = { cats: 42, dogs: 31, hamsters: 7 };
+  function renderPoll() {
+    var total = votes.cats + votes.dogs + votes.hamsters;
+    document.getElementById("poll-result").innerHTML =
+      "cats: "     + votes.cats     + " (" + Math.round(votes.cats/total*100)     + "%)<br>" +
+      "dogs: "     + votes.dogs     + " (" + Math.round(votes.dogs/total*100)     + "%)<br>" +
+      "hamsters: " + votes.hamsters + " (" + Math.round(votes.hamsters/total*100) + "%)";
+  }
+  function vote(a) { votes[a]++; renderPoll(); }
+  renderPoll();
+</script>
+
+</body>
+</html>
